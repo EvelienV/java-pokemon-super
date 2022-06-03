@@ -13,5 +13,11 @@ public class Main {
         System.out.println("This pokemon cannot stand " + charmander.getWeakness());
         charmander.eat();
         charmander.flameThrower();
+        WaterPokemon squirtle = new WaterPokemon("Squirtle", 0.67, 16.59);
+        System.out.println("I choose " + squirtle.getName());
+        System.out.println("a " + squirtle.getType() + " pokemon");
+        System.out.println("This pokemon cannot stand " + squirtle.getWeakness());
+        squirtle.eat();
+        squirtle.waterGun();
     }
 }

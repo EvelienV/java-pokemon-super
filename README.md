@@ -69,7 +69,7 @@ Het is uitdagender om jouw eigen stappenplan te maken, maar als je niet weet waa
 5. Maak de volgende subklassen aan en laat deze voldoen aan de gestelde randvoorwaarden (
    zie: [randvoorwaarden](#randvoorwaarden)):
 
-- `FirePokemon`
+- `WaterPokemon`
 - `WaterPokemon`
 - `GrassPokemon`
 - `ElectricPokemon`
