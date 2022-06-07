@@ -9,7 +9,7 @@ public class Pokemon {
         this.weight = weight;
     }
 
-    public void eat() {
+    protected void eat() {
         System.out.println("This pokemon eats.");
     }
 
