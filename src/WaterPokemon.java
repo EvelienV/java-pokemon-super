@@ -3,15 +3,11 @@ public class WaterPokemon extends Pokemon {
 
     public WaterPokemon(final String name, final double height, final double weight) {
         super(name, height, weight);
+        super.setType("Water");
     }
 
-    // Getter weakness
     public String getWeakness() {
         return weakness;
-    }
-
-    public String getType() {
-        return "Water";
     }
 
     public void setWeakness(String weakness) {

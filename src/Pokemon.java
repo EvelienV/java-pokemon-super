@@ -2,6 +2,7 @@ public class Pokemon {
     private String name;
     private double height;
     private double weight;
+    private String type;
 
     public Pokemon(String name, double height, double weight) {
         this.name = name;
@@ -35,5 +36,13 @@ public class Pokemon {
 
     public void setWeight(double weight) {
         this.weight = weight;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 }

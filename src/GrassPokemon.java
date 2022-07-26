@@ -3,14 +3,11 @@ public class GrassPokemon extends Pokemon {
 
     public GrassPokemon(final String name, final double height, final double weight) {
         super(name, height, weight);
+        super.setType("Grass");
     }
 
     public String getWeakness() {
         return weakness;
-    }
-
-    public String getType() {
-        return "Grass";
     }
 
     public void setWeakness(String weakness) {

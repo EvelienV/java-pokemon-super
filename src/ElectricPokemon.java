@@ -3,14 +3,11 @@ public class ElectricPokemon extends Pokemon {
 
     public ElectricPokemon(final String name, final double height, final double weight) {
         super(name, height, weight);
+        super.setType("Electric");
     }
 
     public String getWeakness() {
         return weakness;
-    }
-
-    public String getType() {
-        return "Electric";
     }
 
     public void setWeakness(String weakness) {

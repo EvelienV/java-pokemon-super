@@ -3,14 +3,11 @@ public class FirePokemon extends Pokemon {
 
     public FirePokemon(final String name, final double height, final double weight) {
         super(name, height, weight);
+        super.setType("Fire");
     }
 
     public String getWeakness() {
         return weakness;
-    }
-
-    public String getType() {
-        return "Fire";
     }
 
     public void setWeakness(String weakness) {
