@@ -13,7 +13,6 @@ public class Pokemon {
         System.out.println("This pokemon eats.");
     }
 
-    //getters
     public String getName() {
         return name;
     }
@@ -26,7 +25,6 @@ public class Pokemon {
         return weight;
     }
 
-    //setters
     public void setName(String name) {
         this.name = name;
     }
